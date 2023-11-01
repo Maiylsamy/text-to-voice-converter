@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 20px 40px;
+    box-shadow: -5px 5px 20px black;
+    background-color: rgb(33, 0, 53);
+    
+
+}
+.container h1{
+    color: white;
+}
+span{
+    color: red;
+}
+textarea{
+    resize: none;
+    z-index: 1;
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    outline: 0;
+    text-indent: 10px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    margin: 10px auto;
+
+}
+select{
+    width: 70%;
+    outline: 0;
+}
+button{
+    border: 0;
+    margin-left: 5px;
+    padding: 0 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
