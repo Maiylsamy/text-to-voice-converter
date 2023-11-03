@@ -42,8 +42,18 @@ textarea{
 
 }
 select{
-    width: 70%;
+    flex: 1;
     outline: 0;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 16px;
+    appearance: none;
+    background-image: url(down-arrow.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y:8px ;
+
 }
 button{
     border: 0;
@@ -51,4 +61,5 @@ button{
     padding: 0 10px;
     font-weight: 500;
     border-radius: 5px;
+    background-color: rgb(163, 143, 195);
 }
